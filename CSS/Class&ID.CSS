@@ -1,0 +1,149 @@
+/* Ctrl / */
+/*
+CSS Rules
+selector{
+property: value;
+}
+*/
+/*Universal Selector*/
+*{
+font-family: "Courier New", monospace;
+
+/*CSS Reset*/
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/*Type Selectors*/
+.h1 {
+font-family: "Tahoma", sans-serif;
+}
+
+body {
+/* background-color: skyblue;*/
+
+background-image: url(https://static.vecteezy.com/system/resources/thumbnails/003/127/954/small_2x/abstract-template-blue-background-white-squares-free-vector.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+section {
+text-align: center;
+}
+nav {
+background-color: white;
+text-align: center;
+/*padding is a propertythat allows us to add a space within an element*/
+padding: 15px;
+}
+/*Class Selector*/
+.nav-link {
+font-size:10px;
+}
+.title{
+color: darkblue;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+/*ID Selector*/
+#hello{
+color: black;
+font-size: 2rem;
+}
+#logo{
+width: 200px;
+height: 200px;
+border-radius:150px;
+margin-top: 2rem;
+margin-bottom: 2rem;
+
+/*More Selectors#/
+a {
+text-decoration: none;
+}
+.module-card{
+height: 350px;
+width: 800px;
+padding: 20px;
+border: 2px solid black;
+background-color: white;
+/*In contrast to padding, margins are spaces outside of the element*/
+margin-top: 30px;
+margin-bottom: 30px;
+text-align: center;
+border-radius: 10px;
+margin-left: auto;
+margin-right: auto;
+}
+/*without border box*/
+/*Border and padding is added on top of width*/
+/*1px border + 50px padding+ 150px width +right padding +1 px border =252px*/
+/*With border-box*/
+/*Border and padding is included in the total width*/
+/*1px border + 50px left padding + 48px width + 50px right padding + 1 px border = 150px*/
+#modules {
+margin-top: 30px;
+margin-bottom: 30px;
+}
+#moduleHeader{
+margin-top: 30px;
+}
+.module-image{
+width:200px;
+height: 200px;
+	font-family: "Courier New", monospace;
+	/*CSS Reset*/
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+/*Type Selectors*/
+h1{
+	font-family: "Tahoma", sans-serif;
+}
+body {
+	background-color: skyblue;
+}
+section{
+	text-align: center;
+}
+nav {
+	background-color:white;
+	text-align: center;
+	/*padding is a propertythat allows us to add a space within an element*/
+	padding:15px;
+}
+/*class Selecor*/
+.nav-link{
+	font-size: 18px;
+}
+.title{
+	color: green;
+}
+/*ID Selector*/
+#hello{
+	color: black;
+	font-size: 2rem;
+}
+#logo{
+width: 200px
+height: 200px;
+border-radius: 150px;
+}
+/*More Selector*/
+a{
+	text-decoration: none;
+}
+.module-card{
+	height: 350px;
+	width: 800px;
+	padding: 20px;
+	border: 2px solid black;
+	background-color: white;
+	margin-top: 30px;
+	margin-bottom:30px;
+	text-align: center;
+	border-radius: 10px;
+}
+/*Without border box */
